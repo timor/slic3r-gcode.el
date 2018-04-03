@@ -2,7 +2,7 @@
 
 (require 'peg)
 
-(defvar slic3r-gcode/layer-regexp ".*move to next layer (\\([0-9]+\\))")
+(defconst slic3r-gcode/layer-regexp ".*move to next layer (\\([0-9]+\\))")
 
 (defvar-local slic3r-gcode/line-info nil)
 
